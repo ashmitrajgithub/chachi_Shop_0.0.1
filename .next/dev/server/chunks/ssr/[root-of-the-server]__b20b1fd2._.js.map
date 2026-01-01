@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/ashmitraj/Downloads/Tradeneeti/hshc/app/admin/settings/page.tsx"],"sourcesContent":["export default function SettingsPage() {\n  return (\n    <div className=\"space-y-4\">\n      <h1 className=\"text-xl font-bold\">Settings</h1>\n\n      <div className=\"bg-white p-6 rounded-xl shadow space-y-4\">\n        <label className=\"flex justify-between items-center\">\n          <span>OTP Retry Limit</span>\n          <input type=\"number\" defaultValue={3} className=\"border p-1 w-20\" />\n        </label>\n\n        <label className=\"flex justify-between items-center\">\n          <span>Call Rate Limit / User</span>\n          <input type=\"number\" defaultValue={5} className=\"border p-1 w-20\" />\n        </label>\n      </div>\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAoB;;;;;;0BAElC,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;wBAAM,WAAU;;0CACf,8OAAC;0CAAK;;;;;;0CACN,8OAAC;gCAAM,MAAK;gCAAS,cAAc;gCAAG,WAAU;;;;;;;;;;;;kCAGlD,8OAAC;wBAAM,WAAU;;0CACf,8OAAC;0CAAK;;;;;;0CACN,8OAAC;gCAAM,MAAK;gCAAS,cAAc;gCAAG,WAAU;;;;;;;;;;;;;;;;;;;;;;;;AAK1D"}}]
+}
