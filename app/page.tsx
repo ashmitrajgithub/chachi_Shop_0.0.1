@@ -125,22 +125,27 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-primary text-primary-foreground py-16 md:py-24">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 text-balance">
-            Ready to Get Started?
-          </h2>
-          <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90 text-pretty">
-            Join thousands of satisfied customers finding trusted local services
-            every day
-          </p>
-          <Link href="/marketplace">
-            <Button size="lg" variant="secondary" className="text-base px-8">
-              Find Services Now
-            </Button>
-          </Link>
-        </div>
-      </section>
+      <section
+  className="py-16 md:py-24 text-white"
+  style={{ backgroundColor: "#ff6333" }}
+>
+  <div className="container mx-auto px-4 text-center">
+    <h2 className="text-3xl md:text-5xl font-bold mb-6">
+      Ready to Get Started?
+    </h2>
+
+    <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
+      Join thousands of satisfied customers finding trusted local services
+      every day
+    </p>
+
+    <Link href="/marketplace">
+      <Button size="lg" variant="secondary" className="text-base px-8">
+        Find Services Now
+      </Button>
+    </Link>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="border-t border-border py-12">
